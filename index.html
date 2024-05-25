@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVEENO</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4I_5y8_p9IFW2JQRcvp228Zuxj6jjQA7zuR9vczpclg&s" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+<nav class="nav-container">
+    <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTecNRLQoTnt6i-yw4E9Fu1x1RDGR3ZenlGyW_cWUTyFw&s" alt="AVEENO Logo">
+    <a style="text-decoration: none; color: black;" href="#footer-section" class="nav-para">Contact Us</a>
+    <div class="icon-cntr">
+        <i class="fa-solid fa-cart-shopping cart-icon"></i>
+    </div>
+
+</nav>
+
+<table>
+    <thead>
+        <tr>
+            <th>UPC</th>
+            <th>BRAND</th>
+            <th>ITEM DESCRIPTION</th>
+            <th>SIZE</th>
+            <th>EA X CS</th>
+            <th>CS X LAY</th>
+            <th>LAY</th>
+            <th>CS X PAL</th>
+            <th>WEIGHT</th>
+            <th>CUBE</th>
+            <th class="price">PRICE</th>
+            <th>IMAGES</th>
+            <th>QTY</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8137001297-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO DAILY MOISTURIZING Body Wash Dry SkinLightly Scented</td>
+            <td>18 fl oz.</td>
+            <td>12</td>
+            <td>16</td>
+            <td>5</td>
+            <td>80</td>
+            <td>16.98</td>
+            <td>0.54</td>
+            <td id="price1" class="price">$80.71</td>
+            <td class="images">
+                <a href="https://m.media-amazon.com/images/I/61r95gvCy+L.jpg" target="_blank"><img src="https://m.media-amazon.com/images/I/61r95gvCy+L.jpg" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity1" oninput="calculateTotal(1)" placeholder="0"></td>
+            <td id="total1" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137001418-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO DAILY MOISTURIZING Body Wash Dry SkinLightly Scented</td>
+            <td>12 fl oz.</td>
+            <td>12</td>
+            <td>20</td>
+            <td>6</td>
+            <td>120</td>
+            <td>11.70</td>
+            <td>0.36</td>
+            <td id="price2" class="price">$70.84</td>
+            <td class="images">
+             <a href="https://m.media-amazon.com/images/I/61r95gvCy+L.jpg" target="_blank">   <img src="https://m.media-amazon.com/images/I/61r95gvCy+L.jpg" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity2" oninput="calculateTotal(2)" placeholder="0"></td>
+            <td id="total2" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003600-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO DAILY MOISTURIZING Body Lotion Dry SkinFragrance Free</td>
+            <td>12 fl oz.</td>
+            <td>12</td>
+            <td>19</td>
+            <td>5</td>
+            <td>95</td>
+            <td>11.00</td>
+            <td>0.38</td>
+            <td id="price3" class="price">$93.06</td>
+            <td class="images">
+                <a href="https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/456/1034/71fpYAPvK_2BL_b7009717-0829-4999-9695-2bf677c52761__49782.1656612315.jpg?c=1&imbypass=on" target="_blank"><img src="https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/456/1034/71fpYAPvK_2BL_b7009717-0829-4999-9695-2bf677c52761__49782.1656612315.jpg?c=1&imbypass=on" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity3" oninput="calculateTotal(3)" placeholder="0"></td>
+            <td id="total3" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003623-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO Moisturizing Bar Dry SkinFragrance Free</td>
+            <td>3.5 fl oz.</td>
+            <td>24</td>
+            <td>18</td>
+            <td>10</td>
+            <td>180</td>
+            <td>6.57</td>
+            <td>0.25</td>
+            <td id="price4" class="price">$63.88</td>
+            <td class="images">
+              <a href="https://m.media-amazon.com/images/I/61QrMMorGaL._SL1280_.jpg" target="_blank"><img src="https://m.media-amazon.com/images/I/61QrMMorGaL._SL1280_.jpg" alt="Product Image"></a>
+            </td>
+            
+                <td><input type="number" id="quantity4" oninput="calculateTotal(4)" placeholder="0"></td>
+            <td id="total4" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003690-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO Anti-Itch Concentrated Lotion</td>
+            <td>4 fl oz.</td>
+            <td>24</td>
+            <td>23</td>
+            <td>7</td>
+            <td>161</td>
+            <td>8.43</td>
+            <td>0.28</td>
+            <td id="price5" class="price">$65.35</td>
+            <td class="images">
+              <a href="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381370036906_00000.png" target="_blank"><img src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381370036906_00000.png" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity5" oninput="calculateTotal(5)" placeholder="0"></td>
+            <td id="total5" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003691-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO CLEAR COMPLEXION Foaming Cleanser</td>
+            <td>6 fl oz.</td>
+            <td>12</td>
+            <td>34</td>
+            <td>5</td>
+            <td>170</td>
+            <td>6.50</td>
+            <td>0.24</td>
+            <td id="price6" class="price">$87.48</td>
+            <td class="images">
+               <a href="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381370036913_us_clear_complexion_foaming_cleanser_6oz_00000.png" target="_blank"> <img src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381370036913_us_clear_complexion_foaming_cleanser_6oz_00000.png" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity6" oninput="calculateTotal(6)" placeholder="0"></td>
+            <td id="total6" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003811-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO POSITIVELY RADIANT CLEAR COMPLEXION Daily Moisturizer</td>
+            <td>4 fl oz.</td>
+            <td>12</td>
+            <td>30</td>
+            <td>6</td>
+            <td>180</td>
+            <td>4.75</td>
+            <td>0.24</td>
+            <td id="price7" class="price">$18.30</td>
+            <td class="images">
+             <a href="https://m.media-amazon.com/images/I/51sv+g0M0kL._SL1500_.jpg" target="_blank">   <img src="https://m.media-amazon.com/images/I/51sv+g0M0kL._SL1500_.jpg" alt="Product Image">
+            </a>
+            </td>
+            <td><input type="number" id="quantity7" oninput="calculateTotal(7)" placeholder="0"></td>
+            <td id="total7" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003844-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO DAILY MOISTURIZING Body Lotion Dry Skin Fragrance Free</td>
+            <td>18 fl oz.</td>
+            <td>12</td>
+            <td>16</td>
+            <td>4</td>
+            <td>64</td>
+            <td>16.14</td>
+            <td>0.59</td>
+            <td id="price8" class="price">$64.14</td>
+            <td class="images">
+               <a href="https://m.media-amazon.com/images/I/71jexqDd9iL._SL1500_.jpg" target="_blank"><img src="https://m.media-amazon.com/images/I/71jexqDd9iL._SL1500_.jpg" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity8" oninput="calculateTotal(8)" placeholder="0"></td>
+            <td id="total8" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003916-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO STRESS RELIEF MOISTURIZING LotionLavender Scented</td>
+            <td>12 fl oz.</td>
+            <td>12</td>
+            <td>20</td>
+            <td>5</td>
+            <td>100</td>
+            <td>11.04</td>
+            <td>0.41</td>
+            <td id="price9" class="price">$93.06</td>
+            <td class="images">
+            <a href="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381371192915_us_stress_relief_moisturizing_lotion_2.5oz_00000.png" target="_blank"><img src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381371192915_us_stress_relief_moisturizing_lotion_2.5oz_00000.png" alt="Product Image">
+                </a>
+            </td>
+            <td><input type="number" id="quantity9" oninput="calculateTotal(9)" placeholder="0"></td>
+            <td id="total9" class="total">0.00</td>
+        </tr>
+        <tr>
+            <td>8137003955-08</td>
+            <td>AVEENO</td>
+            <td>AVEENO STRESS RELIEF Body WashLavender Scented</td>
+            <td>12 fl oz.</td>
+            <td>12</td>
+            <td>20</td>
+            <td>6</td>
+            <td>120</td>
+            <td>11.65</td>
+            <td>0.37</td>
+            <td id="price10" class="price">$70.84</td>
+            <td class="images">
+            <a href="https://m.media-amazon.com/images/I/710h--FY8ZL._SL1500_.jpg" target="_blank"> <img src="https://m.media-amazon.com/images/I/710h--FY8ZL._SL1500_.jpg" alt="Product Image"></a>
+            </td>
+            <td><input type="number" id="quantity10" oninput="calculateTotal(10)" placeholder="0"></td>
+            <td id="total10" class="total">0.00</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="13" style="text-align: right; font-weight: bold;font-size: 30px;">Grand Total:</td>
+            <td id="grandTotal" style="background-color: yellow;font-weight: bold;font-size: 35px;">0.00</td>
+        </tr>
+    </tfoot>
+</table>
+
+<footer id="footer-section" class="footer">
+<ul>
+    <li>Office</li>
+    <li>+123 456 789 0</li>
+    <li>info@abc</li>
+</ul>
+
+<ul>
+    <li>Social Media</li>
+    <li>Instagram</li>
+    <li>Twitter</li>
+</ul>
+
+</footer>
+<div class="caption">AVEENO 2024© .All Rights Reserved</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
